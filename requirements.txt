@@ -1,0 +1,13 @@
+pandas
+numpy
+openpyxl
+xlsxwriter
+matplotlib
+streamlit
+pyyaml
+python-dotenv
+
+langgraph
+langchain-core
+langchain-groq
+
