@@ -130,7 +130,7 @@ The Streamlit dashboard provides an interactive interface to:
 ---
 
 ## 📁 Project Structure
-
+```
 Traffic Status/
 │
 ├── agents/
@@ -156,7 +156,7 @@ Traffic Status/
 ├── main.py
 ├── .env
 └── README.md
-
+```
 
 ---
 
@@ -196,3 +196,4 @@ python main.py
 ```bash
 streamlit run dashboard/app.py
 ```
+
