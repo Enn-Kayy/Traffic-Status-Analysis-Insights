@@ -82,53 +82,6 @@ The Streamlit dashboard provides an interactive interface to:
 Each agent receives and updates a shared state object, ensuring a clean and modular workflow.
 
 ---
-
-## 🧩 Agents Description
-
-### 1️⃣ Input Agent
-- Reads the input Excel file containing multiple traffic tables
-- Validates required columns
-- Converts yearly values into numeric format
-- Stores cleaned tables in shared state
-
-### 2️⃣ Metrics Agent
-- Cleans and orders month-wise data
-- Calculates:
-  - YoY % change (2024 vs 2023)
-  - LM % change for 2024
-  - Annual totals for each year
-- Prepares summary statistics for reporting
-
-### 3️⃣ Insight Agent
-- Analyzes overall annual growth trends
-- Determines whether performance reflects growth, decline, or stability
-- Generates professional, management-level insights focused on:
-  - Overall performance direction
-  - Strategic interpretation
-  - High-level recommendations
-
-### 4️⃣ Output Agent
-- Generates a formatted Excel report
-- Adds:
-  - KPI summary section
-  - Month-wise tables
-  - High-resolution line charts
-  - Insight text for each table
-- Saves all plots and embeds them into the Excel file
-
----
-
-## 📊 Dashboard (Streamlit)
-
-The Streamlit dashboard provides an interactive interface to:
-
-- Select and view different traffic tables
-- Display KPI metrics (Totals & % Change)
-- View month-wise traffic trends with properly scaled charts
-- Read management-level insights directly from the report
-
----
-
 ## 📁 Project Structure
 ```
 Traffic Status/
@@ -196,4 +149,5 @@ python main.py
 ```bash
 streamlit run dashboard/app.py
 ```
+
 
